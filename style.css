@@ -47,9 +47,50 @@ a {
 /* hero start */
 
 .hero {
-
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  position: relative;
+  width: 100%;
+  max-width: 2000px;
+  height: 700px;
+  background-color: black;
 }
 
-#car1{
+.car1 {
+width: 100%;
+height: 100%;
+object-fit: cover;
+opacity: 0.5;
+}
 
+.text-overlay {
+  position: absolute;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#headline {
+  font-size: 50px;
+  font-weight: 900;
+  font-style: sans-serif;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+#subheadline {
+  font-size: 25px;
+  text-decoration: overline;
+  margin-bottom: 15px;
+}
+
+.contact-button {
+  font-size: 36px;
+  background-color: midnightblue;
+  color: silver;
+  padding: 12px;
 }
