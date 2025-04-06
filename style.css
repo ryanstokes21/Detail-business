@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+
+/* Home page */
+/* header start */
+
+.header {
+  color: silver;
+  background-color: midnightblue;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: end;
+  margin-right: 5px;
+}
+li {
+  list-style: none;
+  font-size: large;
+  gap: 10px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* header end */
+/* hero start */
+
+.hero {
+
+}
+
+#car1{
+
+}
