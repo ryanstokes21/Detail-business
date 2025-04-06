@@ -1,5 +1,15 @@
 body {
+  height: 100%;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+background-color: midnightblue;
+color: white;
+text-align: center;
+padding: 12px;
 }
 
 /* Home page */
@@ -103,6 +113,7 @@ opacity: 0.75;
   flex-direction: column;
   align-items: center;
   background-color: midnightblue;
+  padding-bottom: 25px;
 }
 
 #overview-header {
@@ -139,4 +150,43 @@ opacity: 0.75;
 
 .service-description {
   font-size: 20px;
+}
+
+/* overview section end */
+/*testimonial section start*/
+
+.testimonial-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 36px;
+  margin-bottom: 12px;
+}
+
+#testimonial-section-header{
+  font-size: 45px;
+  font-weight: 700;
+  padding: 36px;
+  margin: 12px;
+}
+
+.testimonial-cards {
+  background-color: silver;
+  width: 1200px;
+  max-height: 200px;
+  padding: 36px;
+  margin-bottom: 12px;
+  box-shadow: 0 8px 12px 0 black;
+  border-radius: 18px;
+}
+
+.testimonial {
+  font-size: 20px;
+}
+
+.client-name-testimonial {
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+  text-align: end;
 }
